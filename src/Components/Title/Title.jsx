@@ -1,11 +1,11 @@
 import React from 'react'
 import './Title.css'
 
-export default function Title() {
+export default function Title({subTitle, title}) {
   return (
     <div className='title'>
-        <p>Our PROGRAM</p>
-        <h2>What We Offer</h2>
+        <p>{subTitle}</p>
+        <h2>{title}</h2>
     </div>
   )
 }
